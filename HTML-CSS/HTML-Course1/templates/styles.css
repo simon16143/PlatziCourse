@@ -1,0 +1,99 @@
+body{
+    margin:0px;
+    font-family:'Muli', sans-serif;;
+}
+.header{
+    background-color: #023E8A;
+    width:100%
+}
+.header__logo{
+    margin:10px;
+    width:200px;
+}
+.register{
+    background: linear-gradient(#023E8A,#90E0EF);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 100px);
+    padding: 0px 30px;
+    
+}
+.register__form{
+    background-color:rgba(255, 255, 255, 0.1);
+    border:2px solid white;
+    border-radius: 50px;
+    color: white;
+    padding:60px 68px 60px;
+    min-height: 700px;
+    width: 300px;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.register__form--profile{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+.input{
+    background-color: transparent;
+    border-left: 0px;
+    border-top:0px;
+    border-right: 0px;
+    border-bottom: 2px solid white;
+    font-size: 16px;
+    font-family:'Muli', sans-serif;
+    margin-bottom: 20px;
+    padding:0px 20px;
+    outline: none;
+    height: 50px;
+ }
+ .buttom{
+    background-color:rgba(255, 255, 255, 0.535);
+    border:none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Muli', sans-serif;
+    height: 50px;
+    letter-spacing:1px;
+    margin:10px 0px;
+
+ }
+ ::placeholder{
+     color: white;
+ }
+ .register__form--profile a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+
+ }
+ .register h2{
+     font-size: 25px;
+ }
+ .footer{
+    background-color: #90E0EF;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width:100%;
+ }
+ .footer a{
+    color:white;
+    cursor: pointer;
+    font-size: 14px;
+    padding-left:30px;
+    text-decoration: none;
+
+}
+ .footer a:hover{
+    text-decoration: underline;
+}
